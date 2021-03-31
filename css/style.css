@@ -1,0 +1,196 @@
+body { background-color:#f0f0f0; color:#333; font:12px normal normal Arial, Helvetica, sans-serif; }
+a { text-decoration:none; }
+/*CLEARFIX*/
+.temizle:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.temizle { display: inline-block; }
+* html .temizle { height: 1%; }
+.temizle { display: block; }
+/**/
+#tepe { position:relative; padding:10px 0 10px 125px; background-color:#FFF; }
+#tepe > a { color:#C00; font-size:10px; float:left; }
+#tepe a:hover { text-decoration:underline; }
+#tepe ul { position:absolute; left:750px; top:0px; }
+#tepe ul li { float:left; }
+#tepe ul li a { display:block; color:#333; padding:3px 14px; margin-top:10px; font-size:11px; text-decoration:underline; }
+#tepe ul li a:hover { color:#F00; }
+/**/
+#logo, #logo .ara a, .anamenusol, .anamenusag, ul#ust, #bbb, .ayrac, .baslikorta a, .basliksol, .basliksag, li.sondakika i, ul#surmanset li a span, ul#surmanset li a, .kutu > div, h1.kutu-baslik span, a.kutu-anabaslik i, .kutu-ic ul li a i, #enalt > div, .number_slideshow_nav li a, table#imkb tr td i, ul#altsag li a i, .bg-sol, .bg-orta, .bg-sag { background-image:url(../images/all.png); background-repeat:no-repeat; }
+#logo { position:relative; height:37px; padding-left:99px; background-position:0 0; background-repeat:repeat-x; }
+#logo .ara { position:absolute; left:1000px; top:0px; }
+#logo .ara a { display:block; width:63px; height:37px; background-position:-4px -571px; }
+/**/
+.beyazanamenu { background-color:#FFF; padding:9px 0; }
+#anamenu { min-width:1020px; background-color:#cc0033; padding-left:72px; }
+#anamenu .anamenusol, #anamenu .anamenusag, #anamenu .anamenuorta { display:block; height:69px; }
+#anamenu .anamenusol { width:36px; background-position:0 -42px; background-repeat:no-repeat; float:left; }
+#anamenu .anamenusag { width:36px; float:left; background-position:-103px -42px; background-repeat:no-repeat; }
+#anamenu .anamenuorta { float:left; }
+#anamenu .anamenuorta ul#ust { background-position:0px -111px; background-repeat:repeat-x; }
+#anamenu .anamenuorta ul#ust li { float:left; }
+#anamenu .anamenuorta ul#ust li.ayrac { background-position:-64px -42px; background-repeat:no-repeat; height:39px; width:14px; }
+#anamenu .anamenuorta ul#ust li a { font-size:11px; height:39px; line-height:39px; padding:8px 8px; color:#FFF; text-shadow: 0px 1px 1px #444; }
+#anamenu .anamenuorta ul#ust li a:hover { color:#000; }
+#anamenu .anamenuorta ul#ust li.sondakika { position:relative; }
+#anamenu .anamenuorta ul#ust li.sondakika a { color:#FC0; font-weight:bold; padding:5px 28px 5px 15px; }
+#anamenu .anamenuorta ul#ust li.sondakika i { position:absolute; width:26px; height:25px; top:-5px; right:0px; background-position:-53px -228px; background-repeat:no-repeat; }
+#anamenu .anamenuorta #bbb { background-position:0px -150px; background-repeat:repeat-x; }
+#anamenu .anamenuorta ul#altsol { float:left; margin-left:-10px; }
+#anamenu .anamenuorta ul#altsol li, #anamenu .anamenuorta ul#altsag li { float:left; }
+#anamenu .anamenuorta ul#altsol li a, #anamenu .anamenuorta ul#altsag li a { font-size:10px; height:30px; line-height:30px; padding:3px 10px; color:#999; }
+#anamenu .anamenuorta ul#altsag li a { padding:3px 20px 3px 4px; }
+#anamenu .anamenuorta ul#altsol li a:hover, #anamenu .anamenuorta ul#altsag li a:hover { color:#eee; }
+#anamenu .anamenuorta ul#altsag { float:right; }
+i.posta, i.kunye, i.guvenlik { display:block; float:left; width:15px; height:15px; margin-top:6px; }
+#anamenu .anamenuorta ul#altsag li a i.posta { background-position:-73px -257px; }
+#anamenu .anamenuorta ul#altsag li a i.kunye { background-position:-90px -257px; }
+#anamenu .anamenuorta ul#altsag li a i.guvenlik { background-position:-104px -257px; }
+/**/
+#ustbaslik { min-width:1000px; padding-left:54px; }
+#ustbaslik .basliksol, #ustbaslik .basliksag { display:block; height:48px; width:27px; }
+#ustbaslik .basliksol { float:left; background-position:0px -228px; background-repeat:no-repeat; }
+#ustbaslik .basliksag { float:left; background-position:-26px -228px; background-repeat:no-repeat; }
+#ustbaslik .baslikorta { }
+#ustbaslik .baslikorta a { width:924px; background-position:0px -180px; background-repeat:repeat-x; float:left; color:#FFFF33; font-size:24px; font-style:italic; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; height:48px; line-height:39px; padding:0px 10px; text-shadow: 1px 2px 1px #000; }
+#gosteri { min-width:100px; position:relative; width:1035px; height:160px; }
+#gosteri #tv { position:absolute; left:0; top:0; z-index:1; }
+#gosteri #tvalt { position:absolute; left:0px; top:0; z-index:0; }
+#gosteri ul#surmanset { width:453px; position:absolute; top:0; right:0; z-index:2; }
+#gosteri ul#surmanset li { clear:both; }
+#gosteri ul#surmanset li a { display:block; margin:0; }
+#gosteri ul#surmanset li.bir { }
+#gosteri ul#surmanset li.iki a { margin-right:11px; margin-left:-11px; }
+#gosteri ul#surmanset li.uc a { margin-right:22px; margin-left:-22px; }
+#gosteri ul#surmanset li.dort a { margin-right:33px; margin-left:-33px; }
+#gosteri ul#surmanset li.bes a { margin-right:44px; margin-left:-44px; }
+#gosteri ul#surmanset li a span.sol, #gosteri ul#surmanset li a span.sag { float:left; display:block; height:32px; width:11px; }
+#gosteri ul#surmanset li a span.sol { background-position:-49px -276px; background-repeat:no-repeat; }
+#gosteri ul#surmanset li a span.orta { padding-left:10px; background-position:0px -340px; background-repeat:repeat-x; height:32px; line-height:32px; float:left; display:block; width:410px; font-size:13px; color:#333; text-shadow: 0px 1px 1px #eee; }
+#gosteri ul#surmanset li a span.sag { background-position:-76px -276px; background-repeat:no-repeat; float:right; width:22px; }
+#gosteri ul#surmanset li a:hover span.sol { background-position:-0px -276px; background-repeat:no-repeat; }
+#gosteri ul#surmanset li a:hover span.orta { background-position:0px -308px; color:#FFF; text-shadow: 0px 1px 1px #000; }
+#gosteri ul#surmanset li a:hover span.sag { background-position:-27px -276px; }
+#gosteri ul#surmanset li a span.orta small { color:#666; font-size:10px; float:right; padding-right:10px; line-height:36px; }
+#gosteri ul#surmanset li a:hover span.orta small { color:#ddd; }
+#icerikdis { width:962px; background-color:#FFF; padding:9px 9px 0; clear:both; }
+#icerikdis #icerik { background-color:#f0f0f0; padding:10px; }
+#icerikdis #icerik #sol { width:628px; float:left; }
+#icerikdis #icerik #sag { width:314px; float:right; }
+.kutu { width:304px; float:left; margin:0 10px 10px 0; }
+.kutu .kutu-usol, .kutu .kutu-usag, .kutu .kutu-asol, .kutu .kutu-asag, .kutu .kutu-uorta, .kutu-aorta { display:block; float:left; width:8px; height:8px; }
+.kutu .kutu-usol { background-position:-53px -256px; }
+.kutu .kutu-usag { background-position:-65px -256px; }
+.kutu .kutu-asol { background-position:-53px -268px; }
+.kutu .kutu-asag { background-position:-65px -268px; }
+.kutu .kutu-uorta, .kutu .kutu-aorta { background-color:#FFF; background-image:none; width:288px; }
+.kutu .kutu-ic { clear:both; background-color:#FFF; background-image:none; padding:2px 10px; }
+.kutu span.kutu-baslik-sol, .kutu span.kutu-baslik-orta, .kutu span.kutu-baslik-sag { display:block; float:left; width:8px; height:34px; }
+.kutu span.kutu-baslik-sol { background-position:-120px -274px; }
+.kutu span.kutu-baslik-orta { width:266px; background-position:0px -372px; background-repeat:repeat-x !important; line-height:36px; font-size:18px; font-style:italic; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; text-shadow: 0px 1px 1px #999; }
+.kutu span.kutu-baslik-sag { background-position:-133px -274px; }
+.kisa a.kutu-anabaslik { position:relative; margin:15px 0; display:block; background-color:#eee; border:1px solid #ccc; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
+.kisa a.kutu-anabaslik:hover { background-color:#CC0033; border:1px solid #900; }
+.kisa a.kutu-anabaslik i.guncel, .kisa a.kutu-anabaslik i.vidyo { position:absolute; width:26px; height:25px; top:-10px; left:-10px; background-position:-53px -228px; }
+.kisa a.kutu-anabaslik i.vidyo { width:17px; height:16px; top:55px; left:78px; background-position:-81px -232px; }
+.kisa a.kutu-anabaslik img { float:left; margin-right:10px; width:100px; height:75px; -webkit-border-top-left-radius: 8px; -webkit-border-top-right-radius: 0px; -webkit-border-bottom-right-radius: 0px; -webkit-border-bottom-left-radius: 8px; -moz-border-radius-topleft: 8px; -moz-border-radius-topright: 0px; -moz-border-radius-bottomright: 0px; -moz-border-radius-bottomleft: 8px; border-top-left-radius: 8px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 8px; }
+.kisa a.kutu-anabaslik h3 { color:#333; padding:10px; font-weight:normal; font-size:14px; }
+.kisa a.kutu-anabaslik:hover h3 { color:#fff; }
+.kisa .kutu-ic ul { clear:both; text-shadow: 0px 1px 1px #ffffff; }
+.kisa .kutu-ic ul li a:before { content:"> "; color:#ccc; padding:0 2px 0 5px; font-family:Verdana, Geneva, sans-serif; font-size:9px; }
+.kisa .kutu-ic ul li a { position:relative; color:#666; padding:4px 0; display:block; border-bottom:1px solid #eee; }
+.kisa .kutu-ic ul li a i.vidyolink { position:absolute; width:19px; height:20px; top:2px; right:4px; background-position:-100px -230px; }
+.kisa .kutu-ic ul li a:hover { color:#C00; background-color:#f5f5f5; border-color:#ddd; }
+.uzun { width:616px; clear:both; }
+.uzun span.kutu-baslik-sol { background-position:-99px -274px; }
+.uzun span.kutu-baslik-sag { background-position:-112px -274px; }
+.uzun .kutu-uorta, .uzun .kutu-aorta { width:600px; }
+.uzun span.kutu-baslik-orta { width:580px; background-position:0px -406px; background-repeat:repeat-x !important; }
+.uzun #uzunkutuul { margin-top:10px; }
+.uzun #uzunkutuul img { border:1px solid #ccc; float:left; margin-right:5px; }
+.uzun #uzunkutuul li { float:left; }
+.uzun #uzunkutuul li a { display:block; color:#666; font-weight:bold; padding:9px; ; width:180px; height:57px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.uzun #uzunkutuul li a:hover { background-color:#333; color:#fff; }
+.uzun #uzunkutuul li a small { color:#39F; font-weight:normal; font-size:11px; }
+.uzun #uzunkutuul li a:hover small { color:#ccc; }
+/**/
+.saglik span.kutu-baslik-sol { background-position:-120px -274px; }
+.saglik span.kutu-baslik-sag { background-position:-133px -274px; }
+.saglik span.kutu-baslik-orta { background-position:0px -372px; background-repeat:repeat-x !important; }
+.saglik .saglik-manset { margin:10px 0; }
+.saglik .saglik-manset img { float:left; margin-right:10px; }
+.saglik .saglik-manset h2 { color:#CC0033; font-family:Georgia, "Times New Roman", Times, serif; font-weight:normal; font-size:18px; }
+.saglik .saglik-manset p { color:#666; line-height:19px; margin-top:5px; }
+.saglik ul#linklersol { float:left; clear:both; }
+.saglik ul#linklersag { float:right }
+.saglik ul { margin-top:15px; }
+.saglik ul li a { width:280px; color:#666; padding:4px 0; display:block; border-bottom:1px solid #eee; }
+.saglik ul li a:hover { color:#C00; background-color:#f5f5f5; border-color:#ddd; }
+.saglik ul li a:before { content:"> "; color:#ccc; padding:0 2px 0 5px; font-family:Verdana, Geneva, sans-serif; font-size:9px; }
+/**/
+
+#sag #reklam { width:314px; height:240px; }
+/**/
+.hava { width:314px; margin:0; margin-top:10px; }
+.hava .kutu-uorta, .hava .kutu-aorta { width:298px; }
+.hava span.kutu-baslik-orta { width:278px; }
+.hava .hava-bg { height:93px; margin-top:15px;}
+.bg-sol, .bg-orta, .bg-sag { float:left; display:block; width:9px; height:93px; }
+.bg-sol { background-position:-116px -543px; }
+.bg-orta { background-position:-0px -636px; background-repeat:repeat-x; width:276px; }
+.bg-sag { background-position:-131px -543px; }
+.hava .hava-bg img { margin-top:-10px; }
+.hava .hava-bg table { float:right; text-align:center; margin:2px 16px 0 0; }
+.hava .hava-bg table tr td { padding:3px; }
+.hava .hava-bg table tr td.bg-beyaz { background-color:#FFF; font-weight:bold; font-size:14px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.hava a.hava-yarin, .hava a.hava-dun {display:inline-block; margin-top:15px; color:#666; text-decoration:underline; }
+.hava a.hava-dun {float:left; }
+.hava a.hava-yarin {float:right; }
+/**/
+.borsa .kutu-usol { background-position:-82px -547px; }
+.borsa .kutu-usag { background-position:-94px -547px; }
+.borsa .kutu-asol { background-position:-82px -560px; }
+.borsa .kutu-asag { background-position:-94px -560px; }
+.borsa .kutu-uorta, .borsa .kutu-aorta { background-color:#C1E2EC; }
+.borsa .kutu-ic { clear:both; background-color:#C1E2EC; }
+.borsa { width:314px; margin:0; margin-top:10px; }
+.borsa .kutu-uorta, .borsa .kutu-aorta { width:298px; }
+.borsa .kutu-ic > h1 { padding:0 8px; background-color:#FFF; line-height:36px; font-size:18px; font-style:italic; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; text-shadow: 0px 1px 1px #999; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
+.borsa .kutu-ic table#imkb { margin-top:10px; }
+.borsa .kutu-ic table#imkb tr { display:block; margin-top:5px; padding-left:5px; background-color:#FFF; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.borsa .kutu-ic table#imkb tr td { padding:3px; }
+.borsa .kutu-ic table#imkb tr td i { display:block; width:10px; height:10px; background-position:-126px -229px; }
+.borsa .kutu-ic table#kur { margin-top:10px; }
+.borsa .kutu-ic table#kur tr td { display:inline-block; margin:0 3px; padding:4px 8px; background-color:#FEDB4A; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; font-weight:bold; font-size:13px; text-align:center; }
+/**/
+
+.yazar { width:314px; margin-top:10px; }
+.yazar .kutu-uorta, .yazar .kutu-aorta { width:298px; }
+.yazar span.kutu-baslik-sol { background-position:-121px -240px; }
+.yazar span.kutu-baslik-orta { width:278px; background-position:0px -440px; background-repeat:repeat-x !important; }
+.yazar span.kutu-baslik-sag { background-position:-132px -240px; }
+.yazar ul#yazarlar li a { background-color:#C1E2EC; padding:5px; margin-top:10px; color:#000; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
+.yazar ul#yazarlar li a:hover { background-color:#99cad9; }
+.yazar ul#yazarlar li a img { width:50px; height:50px; float:left; margin-right:10px; }
+.yazar ul#yazarlar li a h3 { font-size:13px; text-decoration:underline; margin-top:5px; }
+.yazar ul#yazarlar li a p { font-size:11px; margin-top:5px; }
+.yazar span.kutu-baslik-orta { color:#FFF; }
+.yazar a.tumu { color:#333; font-size:11px; margin-top:10px; margin-right:10px; text-decoration:underline; float:right; }
+#enalt { background-color:#fff; padding:10px 0 70px; }
+#enalt .altsol, #enalt .altorta, #enalt .altsag { float:left; height:69px; width:25px; background-color:#f0f0f0; }
+#enalt .altsol { padding-left:20px; background-position:-22px -474px; }
+#enalt .altorta { width:910px; background-color:#FFF; background-image:none; position:relative; }
+#enalt .altsag { background-position:-67px -474px; }
+#enalt .altdevam { background-color:#f0f0f0; height:69px; }
+#enalt .altorta ul.altmenu { }
+#enalt .altorta ul.altmenu li { float:left; }
+#enalt .altorta ul.altmenu li a { display:block; color:#333; padding:3px 14px; margin-top:10px; font-size:11px; text-decoration:underline; }
+#enalt .altorta ul.altmenu li a:hover { color:#F00; }
+#enalt .altorta #logo-kucuk { position:absolute; bottom:0; right:10px; }
+#enalt .altorta ul.kucuk li a { color:#666; }
+.number_slideshow { position: relative; display: none; left:11px; }
+.number_slideshow .number_slideshow_nav { margin-left:8px; position: absolute; bottom: 0px; left: 0px; z-index:6; }
+.number_slideshow .number_slideshow_nav li { position: relative; float: left; }
+.number_slideshow .number_slideshow_nav li a { margin-left:-9px; background-position:-1px -543px; line-height:23px; text-align:center; height:23px; width:38px; display:block; font-size:12px; font-style:italic; font-weight:bold; }
+.number_slideshow .number_slideshow_nav li a:hover { background-position:-40px -543px; color:#333 !important; }
+.number_slideshow ul li { position: absolute; }
+.number_slideshow ul li a { }
+.number_slideshow ul li a img { width:280px; }
