@@ -28,10 +28,10 @@ a { text-decoration:none; }
 #anamenu .anamenuorta ul#ust { background-position:0px -111px; background-repeat:repeat-x; }
 #anamenu .anamenuorta ul#ust li { float:left; }
 #anamenu .anamenuorta ul#ust li.ayrac { background-position:-64px -42px; background-repeat:no-repeat; height:39px; width:14px; }
-#anamenu .anamenuorta ul#ust li a { font-size:11px; height:39px; line-height:39px; padding:8px 8px; color:#FFF; text-shadow: 0px 1px 1px #444; }
+#anamenu .anamenuorta ul#ust li a { font-size:11px; height:39px; line-height:39px; padding:8px 7px; color:#FFF; text-shadow: 0px 1px 1px #444; }
 #anamenu .anamenuorta ul#ust li a:hover { color:#000; }
 #anamenu .anamenuorta ul#ust li.sondakika { position:relative; }
-#anamenu .anamenuorta ul#ust li.sondakika a { color:#FC0; font-weight:bold; padding:5px 28px 5px 15px; }
+#anamenu .anamenuorta ul#ust li.sondakika a { color:#FC0; font-weight:bold; padding:5px 30px 5px 10px; }
 #anamenu .anamenuorta ul#ust li.sondakika i { position:absolute; width:26px; height:25px; top:-5px; right:0px; background-position:-53px -228px; background-repeat:no-repeat; }
 #anamenu .anamenuorta #bbb { background-position:0px -150px; background-repeat:repeat-x; }
 #anamenu .anamenuorta ul#altsol { float:left; margin-left:-10px; }
